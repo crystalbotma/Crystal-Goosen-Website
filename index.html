@@ -200,6 +200,40 @@
             line-height: 1.7;
         }
 
+        .about-intro {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .about-photo {
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        .about-photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .about-text h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #2c2c2c;
+        }
+
+        .about-text p {
+            font-size: 0.95rem;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
         /* Contact Section */
         #contact {
             background: white;
@@ -369,6 +403,15 @@
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
             }
+
+            .about-intro {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .about-text h3 {
+                font-size: 1.1rem;
+            }
         }
     </style>
 </head>
@@ -419,6 +462,20 @@
 
     <!-- Value Proposition -->
     <section id="values">
+        <h2 class="section-title">About Crystal</h2>
+
+        <div class="about-intro">
+            <div class="about-photo">
+                <img src="crystal-headshot.jpg" alt="Crystal Goosen">
+            </div>
+            <div class="about-text">
+                <h3>Meet Crystal</h3>
+                <p>With over a decade of architectural experience across the Middle East and Africa, I've developed a deep passion for translating complex design visions into beautifully resolved spaces.</p>
+                <p>My approach is collaborative and hands-on — I work closely with each client to understand not just what you want, but why it matters. Every project is treated as a unique puzzle to solve.</p>
+                <p>When you work with me, you're getting direct access to someone who genuinely cares about the outcome and brings both expertise and personal attention to every detail.</p>
+            </div>
+        </div>
+
         <h2 class="section-title">Why Work Together</h2>
         <div class="values-grid">
             <div class="value-item">
