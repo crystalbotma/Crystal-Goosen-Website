@@ -898,12 +898,8 @@
             });
         });
 
-        // Contact form submission
-        document.querySelector('.contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message. I\'ll get back to you soon!');
-            this.reset();
-        });
+        // Contact form - let Formspree handle it naturally
+        // Remove any blocking code so form actually submits to Formspree
     </script>
 </body>
 </html>
