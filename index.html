@@ -209,6 +209,69 @@
             letter-spacing: 0.3px;
         }
 
+        /* Philosophy Section */
+        #philosophy {
+            background: #fafafa;
+        }
+
+        .philosophy-intro {
+            max-width: 900px;
+            margin: 0 auto 4rem;
+            text-align: center;
+        }
+
+        .philosophy-text {
+            font-size: 1.15rem;
+            color: #555;
+            line-height: 1.9;
+            letter-spacing: 0.4px;
+        }
+
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .philosophy-item {
+            padding: 2.5rem;
+            background: white;
+            border: 1px solid #f0f0f0;
+            border-radius: 0px;
+        }
+
+        .philosophy-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1.2rem;
+            color: #2c2c2c;
+            letter-spacing: 0.3px;
+        }
+
+        .philosophy-item p {
+            font-size: 0.95rem;
+            color: #666;
+            line-height: 1.8;
+            letter-spacing: 0.3px;
+        }
+
+        .philosophy-closing {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 3rem 2rem;
+            background: white;
+            border: 1px solid #f0f0f0;
+        }
+
+        .philosophy-closing p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.9;
+            letter-spacing: 0.4px;
+        }
+
         /* About Section */
         #values {
             background: white;
@@ -443,6 +506,11 @@
                 gap: 2.5rem;
             }
 
+            .philosophy-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
             .about-photo {
                 aspect-ratio: auto;
                 max-width: 100%;
@@ -542,6 +610,7 @@
             </a>
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
                 <li><a href="#values">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -552,7 +621,7 @@
     <section id="hero">
         <h1 class="hero-name">Crystal Goosen</h1>
         <p class="hero-slogan">Clarity in Motion</p>
-        <p class="hero-tagline">Senior architect with 10+ years across the Middle East and Africa, turning complex design visions into beautifully resolved spaces — one project at a time.</p>
+        <p class="hero-tagline">Design consultant with more than a decade's experience across the Middle East and Africa, turning complex design visions into beautifully resolved spaces — one project at a time.</p>
         <p class="hero-bio">With a Master's degree in Architecture and experience spanning luxury villa designs to high-rise developments (G+7 to G+30), I now work independently, offering clients the genuine personal attention and hands-on involvement that large corporate firms rarely provide.</p>
         <a href="#contact" class="cta-button">Get in Touch</a>
     </section>
@@ -577,6 +646,38 @@
                 <h3>Consultant Coordination</h3>
                 <p>Collaboration with trusted specialists (structural, MEP, Authority of Record) with you as the priority.</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Design Philosophy Section -->
+    <section id="philosophy">
+        <h2 class="section-title">Design Philosophy</h2>
+
+        <div class="philosophy-intro">
+            <p class="philosophy-text">Every project is a puzzle. The pieces exist — the site, the client's vision, the constraints, the possibilities — but they need to be understood, tested, and resolved into a coherent whole. This is where my approach begins.</p>
+        </div>
+
+        <div class="philosophy-grid">
+            <div class="philosophy-item">
+                <h3>Listen & Understand</h3>
+                <p>Before sketching anything, I invest time in truly understanding your vision — not just what you want, but why it matters. What does this space mean to you? What will it become? These conversations shape everything that follows.</p>
+            </div>
+            <div class="philosophy-item">
+                <h3>Solve for Context</h3>
+                <p>Architecture in the Middle East requires understanding local climate, culture, and vernacular traditions. I design with the site in mind — how does the building breathe in this heat? How does it connect to its surroundings? Every decision respects the context.</p>
+            </div>
+            <div class="philosophy-item">
+                <h3>Clarity Through Design</h3>
+                <p>Complexity doesn't require complicated solutions. My role is to distill your needs into clear, beautiful design decisions. Each detail exists for a reason. Nothing is arbitrary. This is how confusion becomes clarity.</p>
+            </div>
+            <div class="philosophy-item">
+                <h3>Hands-On Involvement</h3>
+                <p>You work directly with me throughout — from concept through completion. There's no abstraction between your vision and its realization. My commitment is to the project, and my presence ensures your design vision is never lost in translation.</p>
+            </div>
+        </div>
+
+        <div class="philosophy-closing">
+            <p>The result isn't just a building. It's a resolved puzzle — a space that feels inevitable, that works beautifully, that reflects your vision and stands thoughtfully in its place.</p>
         </div>
     </section>
 
