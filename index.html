@@ -898,8 +898,15 @@
             });
         });
 
-        // Contact form - let Formspree handle it naturally
-        // Remove any blocking code so form actually submits to Formspree
+        // Contact form reset after submission
+        const contactForm = document.querySelector('.contact-form');
+        contactForm.addEventListener('submit', function(e) {
+            // Let Formspree handle the submission
+            // Reset form after a brief moment so user sees the fields clear
+            setTimeout(() => {
+                this.reset();
+            }, 500);
+        });
     </script>
 </body>
 </html>
