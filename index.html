@@ -82,6 +82,17 @@
             padding: 6rem 3rem;
             max-width: 1200px;
             margin: 0 auto;
+            position: relative;
+        }
+
+        section:not(:first-of-type)::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 5%;
+            right: 5%;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #e0ddd8 20%, #e0ddd8 80%, transparent);
         }
 
         /* Hero Section */
